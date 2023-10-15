@@ -12,7 +12,7 @@ app.use(express.static("frontend"));
 app.use(express.json());
 
 app.use(express.urlencoded({ extended: true }));
-const port = 3000;
+const port = 80;
 
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/frontend/src/html/home.html");
@@ -60,5 +60,5 @@ app.get("/map", (req, res) => {
   res.sendFile(__dirname + "/frontend/src/html/map.html");
 });
 app.listen(port, () => {
-  console.log(`server is listening at localhost: 3000`);
+  console.log(`server is listening at localhost: 80`);
 });
