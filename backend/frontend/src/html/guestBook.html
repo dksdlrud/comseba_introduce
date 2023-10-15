@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/css/guestBook.css" />
+    <title>방명록</title>
+  </head>
+  <body>
+    <div class="guest">
+      <header class="guest__header">
+        <a href="http://localhost:3000/"
+          ><img src="../../images/comseba_logo.png" alt="컴세바로고"
+        /></a>
+        <div class="home__header__right">
+          <a href="http://localhost:3000/map">오시는 길</a>
+          <a href="http://localhost:3000/guest">방명록</a>
+        </div>
+      </header>
+      <form action="" class="guest__form">
+        <p>방명록</p>
+        <input type="text" placeholder="Your Name..." />
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Comment..."
+        ></textarea>
+        <button>Comment</button>
+      </form>
+    </div>
+    <div class="guest__comment-area"></div>
+    <script src="/src/js/guestBook.js"></script>
+  </body>
+</html>

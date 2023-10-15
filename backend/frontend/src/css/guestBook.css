@@ -1,0 +1,87 @@
+@import url("./reset.css");
+@import url("./common.css");
+
+.guest {
+  padding: 0 10%;
+}
+
+.guest__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.guest__header__right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.guest__header__right a {
+  color: var(--main-color);
+}
+
+.guest__form {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.guest__form p {
+  font-size: 32px;
+}
+
+.guest__form input {
+  width: 70%;
+}
+
+.guest__form button {
+  width: 15%;
+  height: 30px;
+  background-color: var(--btn);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.guest__comment {
+  border-top: 1px solid var(--dark-gray);
+  margin-top: 2rem;
+  display: flex;
+}
+
+.guest__comment__left {
+  padding: 2rem;
+}
+
+.guest__comment__left__name {
+  background-color: var(--dark-gray);
+  color: white;
+  padding: 1rem;
+}
+
+.guest__comment__right {
+  width: 70%;
+  padding: 1rem;
+}
+
+.guest__comment__right__time {
+  margin-top: 1rem;
+  color: var(--comment-time);
+}
+
+.guest__comment__right__delete {
+  margin-top: 0.4rem;
+  width: 50px;
+  height: 25px;
+  background-color: lightgray;
+  color: black;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
