@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/guest", (req, res) => {
-  res.sendFile(__dirname + "/frontend/src/html/guestbook.html");
+  res.sendFile(__dirname + "/frontend/src/html/guestBook.html");
 });
 
 app.get("/comment", (req, res) => {
